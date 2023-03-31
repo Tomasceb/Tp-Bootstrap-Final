@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap"     rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+<body>
+  <!--header-->
+  <header>
+    <div class="container altura">
+      <!--Nav-->
+      <nav class="row text-white justify-content-between align-items-center text-uppercase pt-4 pb-2">
+        <!--Logo-->
+        <a href="#" class="col-lg-auto text-reset text-decoration-none">
+          <img src="./Img/Bagpipes.svg" alt="scotland-logo" class="img-logo"> Scotland
+        </a>
+        <!--Anclas-->
+        <div class="col-lg-auto">
+          <a href="#actividades" class="text-reset pe-3 ancla">Actividades</a>
+          <a href="#tourss" class="text-reset pe-3 ancla">Tours</a>
+          <a href="#experienciass" class="text-reset pe-3 ancla">Experiencias</a>
+          <a href="#contact" class="text-reset ancla">Contacto</a>
+        </div>
+      </nav>
+      <!--Descripcion-->
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-6 text-white">
+          <!--Titulo-->
+          <div id="titulo"> <span class="text-warning h4 pe-2">Conoce</span>Escocia</div>
+          <!--Descripcion-->
+          <p id="parrafo" class="pt-5">
+            Situada dentro de la vibrante Europa, Escocia es una nación progresista basada en el dinamismo, la creatividad y la fabulosa calidez de su gente.
+          </p>
+        </div>
+      </div>
+    </div>
+   <img src="./Img/cut-header.svg" alt="">
+  </header>
+  <!--actividades-->
+  <section id="actividades" class="container pb-5">
+    <div class="row">
+      <!--text-->
+      <div class="col-lg-12 text-center">
+        <h2 class="text-uppercase text-warning h6">Actividades</h2>
+        <h3 class="text-capitalize">Experimenta Escocia</h3>
+        <p class="text-muted pb-3">Vive Escocia a través de variadas actividades pensadas para cada persona.</p>
+      </div>
+      <!--Tarjetas-->
+      <article class="col-lg-4 card-effect">
+        <div class="card">
+          <img src="./Img/tarjeta1.jpg" alt="paisaje" class="card-img imagen-filtro">
+          <div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
+            <h4>Naturaleza</h4>
+            <p>Imponentes montañas, lagos resplandecientes, densos bosques y playas doradas: los paisajes y el escenario natural de Escocia realmente te dejarán sin aliento. Recorra las colinas onduladas de las Tierras Bajas, o conduzca a través de profundos valles rodeados de montañas en las Tierras Altas.</p>
+            <a href="#" class="text-reset text-decoration-none">Leer más</a>
+          </div>
+        </div>
+      </article>
+      <article class="col-lg-4 card-effect">
+        <div class="card">
+          <img src="./Img/tarjeta4.jpg" alt="monumento" class="card-img imagen-filtro">
+          <div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
+            <h4>Cultura</h4>
+            <p>
+              La cultura de Escocia se remonta a casi mil años,desde los antiguos clanes del siglo XII, cada generación ha agregado su propia huella cultural, creando un país único y vibrante.</p>
+            <a href="#" class="text-reset text-decoration-none">Leer más</a>
+          </div>
+        </div>
+      </article>
+      <article class="col-lg-4 card-effect">
+        <div class="card">
+          <img src="./Img/tarjeta2.jpg" alt="gastronomia" class="card-img imagen-filtro">
+          <div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
+            <h4>Gastronomia</h4>
+            <p>Escocia es el hogar de increíbles variedades de comidas; desde suculentos mariscos y haggis tradicionales, hasta coloridos platos veganos y deliciosos ingredientes de origen local, hay una gran cantidad de comida para probar.</p>
+            <a href="#" class="text-reset text-decoration-none">Leer más</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!--Tours-->
+  <section id="tourss" class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12 pt-5">
+        <h3 class="text-center text-uppercase text-warning">Tours</h3>
+        <h5 class="text-muted text-center">Elige alguno de nuestros diferentes tours para recorrer este increible pais.</h5>
+      </div>
+      <div class="accordion col-lg-8 pt-5" id="acordeon">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Recorrido por las Highlands
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+               Nuesto Tour de 3 días a la Isla de Skye es una experiencia ideal para explorar las Tierras Altas de Escocia y una de sus islas más famosas. El perfecto complemento para una visita a Edimburgo llevándote el auténtico sabor de las Highlands. Los lugares más destacados que se visitarán en este viaje serán el Valle de Glencoe, el Lago Ness, el Castillo de Eilean Donan, el Castillo de Dunvegan, Portree, Inverness, Pitlochry y muchos más.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Harry Potter e Inglaterra
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Cruza la frontera entre Escocia e Inglaterra y descubre las murallas defensivas del pueblo costero de Berwick-Upon-Tweed. Continúa después disfrutando de una jornada mágica visitando el Castillo de Alnwick, donde se rodó la película de Harry Potter, o series como Downton Abbey o Vikingos.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Descubriendo Edimburgo
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              El Tour de Edimburgo te ofrecerá una primera mirada a la capital de Escocia, llena de sugerencias para que aproveches al máximo tu estancia en la ciudad, además contará con un nuevo recorrido en el que incluiremos algunas paradas alejadas de los recorridos tradicionales sin olvidarnos tampoco de los rincones que no te puedes perder en tu visita a Edimburgo. Dicho recorrido nos llevará por la Old Town y sus intrincadas callejuelas para conocer algunos de sus edificios y personajes más emblemáticos, en la que pasaremos también por la pintoresca Victoria Street, Grassmarket y por el escalofriante cementerio de Greyfriars, para terminar viendo los edificios más representativos de la Universidad de Edimburgo, una de las más antiguas y prestigiosas del mundo. En definitiva, un trayecto lleno de historia pero también de literatura, gastronomía, vida nocturna y mucha diversión que esperamos que te guste tanto como a nosotros.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--section opiniones-->
+  <section id="experienciass" class="opiniones">
+    <img src="./Img/cut-header.svg" alt="corte" class="transform-rotate">
+    <!--Comentarios-->
+    <div id="carouselExample" class="carousel slide text-center carousel-dark">
+      <div class="carousel-inner  bg-opiniones">
+        <div class="carousel-item active">
+          <img src="./Img/comm1.jpg" class="rounded-circle shadow-1-strong col-lg-8 pt-4 pb-3" alt="perfil 1" style="width: 150px;">
+          <div class="row d-flex justify-content-center text-white">
+            <div class="col-lg-8">
+              <h5>Santiago Leon</h5>
+              <p>Es un tour largo pero imprescindible para disfrutar las tierras altas . Me encanto y lo mejor sin dudas es Fernando ( nuestro guía) nos explico todo lo referente a este país . Geografía, historia, comidas , y hasta musicalizo con temas del lugar. No se lo pierdan.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./Img/comm2.jpg" class="rounded-circle shadow-1-strong col-lg-8 pt-4 pb-3" alt="perfil 1" style="width: 150px;">
+          <div class="row d-flex justify-content-center text-white">
+            <div class="col-lg-8">
+              <h5>Ricardo Gorila</h5>
+              <p>Nuestra visita a los Castillos con Johnny fue muy amena desde el inicio. Llena el viaje de Historia e historias muy didácticas. Fue muy atento con los apasionados por Harry Potter haciendo preguntas sobre los personajes y escenas de las películas. El castillo de Bamburgh maravilloso.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./Img/comm3.jpg" class="rounded-circle shadow-1-strong col-lg-8 pt-4 pb-3" alt="perfil 1" style="width: 150px;">
+          <div class="row d-flex justify-content-center text-white">
+            <div class="col-lg-8">
+              <h5>Fernando Ave</h5>
+              <p>Gran tour para empezar a conocer Edimburgo e Iris nuestra guía una gran profesional que te hace esas 3 horas muy amenas explicando con todo tipo de detalle la historia de la ciudad.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!--footer-->
+  <footer id="contact" class="text-center text-lg-start bg-light text-muted">
+    <section>
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Conoce Escocia
+            </h6>
+            <p>
+              Conoce Escocia es una empresa familiar dedicada a tours y visitas guidas en el Reino Unido
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Enlaces Útiles
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Facebook</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Instagram</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Twitter</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+            <p><i class="fas fa-home me-3"></i> Edinburgh, Royal Mile 50, UK</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              conoceescocia@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023 Copyright
+    </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
